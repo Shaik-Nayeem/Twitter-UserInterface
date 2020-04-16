@@ -2,7 +2,7 @@ import React from 'react';
 import './custom.css';
 import {connect} from 'react-redux';
 
-class Login extends React.Component {
+class Twitter_Interface extends React.Component {
 
 constructor(){
   super();
@@ -74,5 +74,5 @@ const mapStateToProps=(state)=>{
   console.log(state)
     return {data:state.twitter_data}
 }
-export default connect(mapStateToProps)(Login);
+export default connect(mapStateToProps)(Twitter_Interface);
 

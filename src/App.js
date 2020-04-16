@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
-import Login from './Components/Login'
+import Twitter_Interface from './Components/UserInterface'
 
 
 function App() {
   return (
     <div className="App">
-        <Login />
+        <Twitter_Interface />
     </div>
   );
 }
