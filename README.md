@@ -5,7 +5,7 @@
 
 - Used redux for populating data in react components.
 - Filter based on the text entered(Get the updated list based on search)
-- Saving Data in local storage
+- Saving Data in local storage.
 
 ## Deployment
 - Using AWS (s3 static web hosting)
